@@ -18,7 +18,6 @@ class Solution {
             //edge case
             if(head->next == nullptr) return;
 
-           stack<ListNode*> rev_stack;
             
            ListNode* fast = head;
            ListNode* slow = head;
